@@ -8,8 +8,23 @@ var swiper = new Swiper('.swipper__card-carousel', {
         nextEl: '.btn-card-next',
         prevEl: '.btn-card-prev',
     },
-});
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 20
+        },
+        700: {
+            slidesPerView: 2,
+            spaceBetween: 30
+        },
 
+        1000: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        }
+    }
+
+});
 
 var swiper = new Swiper('.investors-carousel', {
     slidesPerView: 3,
@@ -21,4 +36,19 @@ var swiper = new Swiper('.investors-carousel', {
         nextEl: '.btn-investor-next',
         prevEl: '.btn-investor-prev',
     },
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 20
+        },
+        700: {
+            slidesPerView: 2,
+            spaceBetween: 30
+        },
+
+        1000: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        }
+    }
 });
