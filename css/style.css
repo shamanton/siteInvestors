@@ -538,7 +538,6 @@ input {
     }
 
     .dropdown__footer .dropdown-menu {
-        min-width: 250px;
         margin: 0 10px 10px 0;
         padding: 10px;
     }
